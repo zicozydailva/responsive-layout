@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background: lightgray;
+
+}
+.button1 {
+  background: orange;
+  color: white;
+  border: none;
+  height: 38px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dark {
+  background: rgb(233, 138, 22);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  padding: 15px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+header {
+  background: #35424a;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: orange 3px solid;
+}
+header a {
+  color: white;
+  text-decoration: none; 
+  text-transform: uppercase;
+  font-size: 10px;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding {
+  float: left;
+}
+header #branding h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header .highlight, header .current a {
+  color: orange;
+  font-weight: bold;
+}
+header a:hover {
+  color: gray;
+  font-weight: bold;
+}
+  #showcase {
+    min-height: 400px;
+    background: purple;
+    text-align: center;
+    color: white;
+  }
+  #showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+  #showcase p {
+    font-size: 20px;
+  }
+  #newsletter {
+    padding: 15px;
+    color: white;
+    background:black;
+  }
+  #newsletter h1 {
+    float:left;
+  }
+  #newsletter form {
+    float: right; 
+    margin-top: 22px;
+  }
+  #newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+  #boxes {
+    margin-top: 20px;
+  }
+  #boxes .box {
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding: 10px;
+  }
+  #boxes .box img{
+    width: 90px;
+  }
+   aside#sidebar {
+     float: right;
+     width: 30%;
+     margin-top: 10px;
+  }
+  article#main100{
+    float: left;
+    width: 65%;
+  }
+
+  footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background:orange;
+    text-align: center;
+  
+  }
